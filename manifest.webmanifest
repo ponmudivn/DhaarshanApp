@@ -1,0 +1,9 @@
+{
+  "name": "Little Learners",
+  "short_name": "Little Learners",
+  "description": "A cheerful little place for learning and play.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7f6f1",
+  "theme_color": "#f7f6f1"
+}

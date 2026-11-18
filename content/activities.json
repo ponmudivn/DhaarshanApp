@@ -1,89 +1,2009 @@
 {
-  "version": 1,
+  "version": 2,
   "readingStories": [
-    {"id":"read-001","sentence":"A small cat naps on a red mat.\nThe sun warms its fur.\nThe cat wakes up and stretches.","answer":"🐱🔴","choices":["🐱🔴","🐶🟢","🐸🔵"]},
-    {"id":"read-002","sentence":"Ben visits the pond.\nHe sees three yellow ducks.\nThey swim close to the bank.","answer":"🦆🦆🦆","choices":["🐟🐟🐟","🦆🦆🦆","🐢🐢🐢"]},
-    {"id":"read-003","sentence":"The wind is strong today.\nA blue kite flies high in the sky.\nMia holds the string tight.","answer":"🪁🔵☁️","choices":["🎈🔴☁️","🪁🔵☁️","🚗🔵🛣️"]},
-    {"id":"read-004","sentence":"Mum picks a book for Sam.\nShe reads him a story.\nSam puts the book beside his bed.","answer":"📘🛏️","choices":["🍎🪑","📘🛏️","⚽🚪"]},
-    {"id":"read-005","sentence":"A little frog sits on a log.\nIt sees a fly.\nThe frog jumps into the pond.","answer":"🐸🪵","choices":["🐸🪵","🐦🌳","🐠🪨"]},
-    {"id":"read-006","sentence":"Sam takes his red ball to the park.\nHe kicks it to his friend.\nThey play together.","answer":"👦🏻🔴⚽","choices":["👦🏻🔴⚽","👧🏻🟡🪁","🐶🟢🥎"]},
-    {"id":"read-007","sentence":"The sun makes the day hot.\nAva feels thirsty.\nShe drinks cool water.","answer":"☀️💧","choices":["🌙🥛","☀️💧","🌧️🍵"]},
-    {"id":"read-008","sentence":"A tiny bee lands on a pink flower.\nIt gathers nectar.\nThen it buzzes away.","answer":"🐝🌸","choices":["🦋🌻","🐝🌸","🐞🍃"]},
-    {"id":"read-009","sentence":"Lee finds two red apples.\nLee puts them in a bag.\nThe apples are for lunch.","answer":"🍎🍎🛍️","choices":["🍐🛍️","🍎🍎🛍️","🍌🍌🎒"]},
-    {"id":"read-010","sentence":"A sheep is sleepy.\nIt rests by the farm gate.\nSoon it closes its eyes.","answer":"🐑🚪","choices":["🐄🏠","🐑🚪","🐔🌾"]},
-    {"id":"read-011","sentence":"Nina plants a seed in a pot.\nShe gives it water each day.\nA green leaf peeks out.","answer":"🪴💧","choices":["🪴💧","🧸🎀","🚲🛞"]},
-    {"id":"read-012","sentence":"A tiny turtle walks to the pond.\nIt sees a lily pad.\nThe turtle rests in the shade.","answer":"🐢🪷","choices":["🐢🪷","🐱🧶","🐘🎈"]},
-    {"id":"read-013","sentence":"Raj finds a shell on the beach.\nHe listens to the waves.\nHe puts the shell in his bucket.","answer":"🐚🏖️","choices":["🍂🌳","🐚🏖️","📚🏫"]},
-    {"id":"read-014","sentence":"A brown puppy runs to the gate.\nIt wags its tail.\nMaya gives it a pat.","answer":"🐶🚪","choices":["🐶🚪","🐰🥕","🐟🫧"]},
-    {"id":"read-015","sentence":"The moon shines above the house.\nA little owl sits in a tree.\nIt hoots softly.","answer":"🦉🌙","choices":["🐓☀️","🦉🌙","🦋🌼"]},
-    {"id":"read-016","sentence":"Omar packs a sandwich for lunch.\nHe adds an apple to his bag.\nThen he walks to school.","answer":"🥪🍎🎒","choices":["🥪🍎🎒","🍦🏖️🩴","🥣🛏️🌙"]},
-    {"id":"read-017","sentence":"Lily sees a rainbow after the rain.\nShe counts its bright colours.\nShe draws it in her book.","answer":"🌈📘","choices":["🌈📘","🌧️🚗","🎂🎁"]},
-    {"id":"read-018","sentence":"A red fire truck races down the road.\nThe helpers reach a small house.\nThey put out the fire safely.","answer":"🚒🏠","choices":["🚒🏠","🚜🌾","🚢🌊"]},
-    {"id":"read-019","sentence":"Noah finds a shiny pebble.\nHe puts it beside a blue one.\nThey make a little path.","answer":"🪨🪨","choices":["🪨🪨","🥚🧺","🍪🥛"]},
-    {"id":"read-020","sentence":"A bird builds a nest in a tree.\nIt brings soft grass and twigs.\nSoon three eggs rest inside.","answer":"🐦🪺🥚","choices":["🐦🪺🥚","🐠🪸🫧","🐝🍯🌻"]}
+    {
+      "id": "read-001",
+      "sentence": "A small cat naps on a red mat.\nThe sun warms its fur.\nThe cat wakes up and stretches.",
+      "answer": "🐱🔴",
+      "choices": [
+        "🐱🔴",
+        "🐶🟢",
+        "🐸🔵"
+      ]
+    },
+    {
+      "id": "read-002",
+      "sentence": "Ben visits the pond.\nHe sees three yellow ducks.\nThey swim close to the bank.",
+      "answer": "🦆🦆🦆",
+      "choices": [
+        "🐟🐟🐟",
+        "🦆🦆🦆",
+        "🐢🐢🐢"
+      ]
+    },
+    {
+      "id": "read-003",
+      "sentence": "The wind is strong today.\nA blue kite flies high in the sky.\nMia holds the string tight.",
+      "answer": "🪁🔵☁️",
+      "choices": [
+        "🎈🔴☁️",
+        "🪁🔵☁️",
+        "🚗🔵🛣️"
+      ]
+    },
+    {
+      "id": "read-004",
+      "sentence": "Mum picks a book for Sam.\nShe reads him a story.\nSam puts the book beside his bed.",
+      "answer": "📘🛏️",
+      "choices": [
+        "🍎🪑",
+        "📘🛏️",
+        "⚽🚪"
+      ]
+    },
+    {
+      "id": "read-005",
+      "sentence": "A little frog sits on a log.\nIt sees a fly.\nThe frog jumps into the pond.",
+      "answer": "🐸🪵",
+      "choices": [
+        "🐸🪵",
+        "🐦🌳",
+        "🐠🪨"
+      ]
+    },
+    {
+      "id": "read-006",
+      "sentence": "Sam takes his red ball to the park.\nHe kicks it to his friend.\nThey play together.",
+      "answer": "👦🏻🔴⚽",
+      "choices": [
+        "👦🏻🔴⚽",
+        "👧🏻🟡🪁",
+        "🐶🟢🥎"
+      ]
+    },
+    {
+      "id": "read-007",
+      "sentence": "The sun makes the day hot.\nAva feels thirsty.\nShe drinks cool water.",
+      "answer": "☀️💧",
+      "choices": [
+        "🌙🥛",
+        "☀️💧",
+        "🌧️🍵"
+      ]
+    },
+    {
+      "id": "read-008",
+      "sentence": "A tiny bee lands on a pink flower.\nIt gathers nectar.\nThen it buzzes away.",
+      "answer": "🐝🌸",
+      "choices": [
+        "🦋🌻",
+        "🐝🌸",
+        "🐞🍃"
+      ]
+    },
+    {
+      "id": "read-009",
+      "sentence": "Lee finds two red apples.\nLee puts them in a bag.\nThe apples are for lunch.",
+      "answer": "🍎🍎🛍️",
+      "choices": [
+        "🍐🛍️",
+        "🍎🍎🛍️",
+        "🍌🍌🎒"
+      ]
+    },
+    {
+      "id": "read-010",
+      "sentence": "A sheep is sleepy.\nIt rests by the farm gate.\nSoon it closes its eyes.",
+      "answer": "🐑🚪",
+      "choices": [
+        "🐄🏠",
+        "🐑🚪",
+        "🐔🌾"
+      ]
+    },
+    {
+      "id": "read-011",
+      "sentence": "Nina plants a seed in a pot.\nShe gives it water each day.\nA green leaf peeks out.",
+      "answer": "🪴💧",
+      "choices": [
+        "🪴💧",
+        "🧸🎀",
+        "🚲🛞"
+      ]
+    },
+    {
+      "id": "read-012",
+      "sentence": "A tiny turtle walks to the pond.\nIt sees a lily pad.\nThe turtle rests in the shade.",
+      "answer": "🐢🪷",
+      "choices": [
+        "🐢🪷",
+        "🐱🧶",
+        "🐘🎈"
+      ]
+    },
+    {
+      "id": "read-013",
+      "sentence": "Raj finds a shell on the beach.\nHe listens to the waves.\nHe puts the shell in his bucket.",
+      "answer": "🐚🏖️",
+      "choices": [
+        "🍂🌳",
+        "🐚🏖️",
+        "📚🏫"
+      ]
+    },
+    {
+      "id": "read-014",
+      "sentence": "A brown puppy runs to the gate.\nIt wags its tail.\nMaya gives it a pat.",
+      "answer": "🐶🚪",
+      "choices": [
+        "🐶🚪",
+        "🐰🥕",
+        "🐟🫧"
+      ]
+    },
+    {
+      "id": "read-015",
+      "sentence": "The moon shines above the house.\nA little owl sits in a tree.\nIt hoots softly.",
+      "answer": "🦉🌙",
+      "choices": [
+        "🐓☀️",
+        "🦉🌙",
+        "🦋🌼"
+      ]
+    },
+    {
+      "id": "read-016",
+      "sentence": "Omar packs a sandwich for lunch.\nHe adds an apple to his bag.\nThen he walks to school.",
+      "answer": "🥪🍎🎒",
+      "choices": [
+        "🥪🍎🎒",
+        "🍦🏖️🩴",
+        "🥣🛏️🌙"
+      ]
+    },
+    {
+      "id": "read-017",
+      "sentence": "Lily sees a rainbow after the rain.\nShe counts its bright colours.\nShe draws it in her book.",
+      "answer": "🌈📘",
+      "choices": [
+        "🌈📘",
+        "🌧️🚗",
+        "🎂🎁"
+      ]
+    },
+    {
+      "id": "read-018",
+      "sentence": "A red fire truck races down the road.\nThe helpers reach a small house.\nThey put out the fire safely.",
+      "answer": "🚒🏠",
+      "choices": [
+        "🚒🏠",
+        "🚜🌾",
+        "🚢🌊"
+      ]
+    },
+    {
+      "id": "read-019",
+      "sentence": "Noah finds a shiny pebble.\nHe puts it beside a blue one.\nThey make a little path.",
+      "answer": "🪨🪨",
+      "choices": [
+        "🪨🪨",
+        "🥚🧺",
+        "🍪🥛"
+      ]
+    },
+    {
+      "id": "read-020",
+      "sentence": "A bird builds a nest in a tree.\nIt brings soft grass and twigs.\nSoon three eggs rest inside.",
+      "answer": "🐦🪺🥚",
+      "choices": [
+        "🐦🪺🥚",
+        "🐠🪸🫧",
+        "🐝🍯🌻"
+      ]
+    },
+    {
+      "id": "read-021",
+      "sentence": "Mia plants sunflower seeds.\nThey water them each morning.\nSoon, bright yellow flowers grow.",
+      "answer": "🌱🌻",
+      "choices": [
+        "🌱🌻",
+        "🚂🛤️",
+        "🥪🍎"
+      ]
+    },
+    {
+      "id": "read-022",
+      "sentence": "Noah plants sunflower seeds.\nThey water them each morning.\nSoon, bright yellow flowers grow.",
+      "answer": "🌱🌻",
+      "choices": [
+        "🌱🌻",
+        "🚂🛤️",
+        "🥪🍎"
+      ]
+    },
+    {
+      "id": "read-023",
+      "sentence": "Asha plants sunflower seeds.\nThey water them each morning.\nSoon, bright yellow flowers grow.",
+      "answer": "🌱🌻",
+      "choices": [
+        "🌱🌻",
+        "🚂🛤️",
+        "🥪🍎"
+      ]
+    },
+    {
+      "id": "read-024",
+      "sentence": "Leo plants sunflower seeds.\nThey water them each morning.\nSoon, bright yellow flowers grow.",
+      "answer": "🌱🌻",
+      "choices": [
+        "🌱🌻",
+        "🚂🛤️",
+        "🥪🍎"
+      ]
+    },
+    {
+      "id": "read-025",
+      "sentence": "Nina plants sunflower seeds.\nThey water them each morning.\nSoon, bright yellow flowers grow.",
+      "answer": "🌱🌻",
+      "choices": [
+        "🌱🌻",
+        "🚂🛤️",
+        "🥪🍎"
+      ]
+    },
+    {
+      "id": "read-026",
+      "sentence": "Arun plants sunflower seeds.\nThey water them each morning.\nSoon, bright yellow flowers grow.",
+      "answer": "🌱🌻",
+      "choices": [
+        "🌱🌻",
+        "🚂🛤️",
+        "🥪🍎"
+      ]
+    },
+    {
+      "id": "read-027",
+      "sentence": "Lily plants sunflower seeds.\nThey water them each morning.\nSoon, bright yellow flowers grow.",
+      "answer": "🌱🌻",
+      "choices": [
+        "🌱🌻",
+        "🚂🛤️",
+        "🥪🍎"
+      ]
+    },
+    {
+      "id": "read-028",
+      "sentence": "Sam plants sunflower seeds.\nThey water them each morning.\nSoon, bright yellow flowers grow.",
+      "answer": "🌱🌻",
+      "choices": [
+        "🌱🌻",
+        "🚂🛤️",
+        "🥪🍎"
+      ]
+    },
+    {
+      "id": "read-029",
+      "sentence": "Mia folds a paper boat.\nThey float it in a bowl of water.\nThe little boat sails across.",
+      "answer": "🛶💧",
+      "choices": [
+        "🛶💧",
+        "🎈🎁",
+        "🐈🧶"
+      ]
+    },
+    {
+      "id": "read-030",
+      "sentence": "Noah folds a paper boat.\nThey float it in a bowl of water.\nThe little boat sails across.",
+      "answer": "🛶💧",
+      "choices": [
+        "🛶💧",
+        "🎈🎁",
+        "🐈🧶"
+      ]
+    },
+    {
+      "id": "read-031",
+      "sentence": "Asha folds a paper boat.\nThey float it in a bowl of water.\nThe little boat sails across.",
+      "answer": "🛶💧",
+      "choices": [
+        "🛶💧",
+        "🎈🎁",
+        "🐈🧶"
+      ]
+    },
+    {
+      "id": "read-032",
+      "sentence": "Leo folds a paper boat.\nThey float it in a bowl of water.\nThe little boat sails across.",
+      "answer": "🛶💧",
+      "choices": [
+        "🛶💧",
+        "🎈🎁",
+        "🐈🧶"
+      ]
+    },
+    {
+      "id": "read-033",
+      "sentence": "Nina folds a paper boat.\nThey float it in a bowl of water.\nThe little boat sails across.",
+      "answer": "🛶💧",
+      "choices": [
+        "🛶💧",
+        "🎈🎁",
+        "🐈🧶"
+      ]
+    },
+    {
+      "id": "read-034",
+      "sentence": "Arun folds a paper boat.\nThey float it in a bowl of water.\nThe little boat sails across.",
+      "answer": "🛶💧",
+      "choices": [
+        "🛶💧",
+        "🎈🎁",
+        "🐈🧶"
+      ]
+    },
+    {
+      "id": "read-035",
+      "sentence": "Lily folds a paper boat.\nThey float it in a bowl of water.\nThe little boat sails across.",
+      "answer": "🛶💧",
+      "choices": [
+        "🛶💧",
+        "🎈🎁",
+        "🐈🧶"
+      ]
+    },
+    {
+      "id": "read-036",
+      "sentence": "Sam folds a paper boat.\nThey float it in a bowl of water.\nThe little boat sails across.",
+      "answer": "🛶💧",
+      "choices": [
+        "🛶💧",
+        "🎈🎁",
+        "🐈🧶"
+      ]
+    },
+    {
+      "id": "read-037",
+      "sentence": "Mia packs lunch for a picnic.\nThey put fruit in a basket.\nThey eat under a shady tree.",
+      "answer": "🧺🍎🌳",
+      "choices": [
+        "🧺🍎🌳",
+        "🛏️📘🌙",
+        "🚗🛞🛣️"
+      ]
+    },
+    {
+      "id": "read-038",
+      "sentence": "Noah packs lunch for a picnic.\nThey put fruit in a basket.\nThey eat under a shady tree.",
+      "answer": "🧺🍎🌳",
+      "choices": [
+        "🧺🍎🌳",
+        "🛏️📘🌙",
+        "🚗🛞🛣️"
+      ]
+    },
+    {
+      "id": "read-039",
+      "sentence": "Asha packs lunch for a picnic.\nThey put fruit in a basket.\nThey eat under a shady tree.",
+      "answer": "🧺🍎🌳",
+      "choices": [
+        "🧺🍎🌳",
+        "🛏️📘🌙",
+        "🚗🛞🛣️"
+      ]
+    },
+    {
+      "id": "read-040",
+      "sentence": "Leo packs lunch for a picnic.\nThey put fruit in a basket.\nThey eat under a shady tree.",
+      "answer": "🧺🍎🌳",
+      "choices": [
+        "🧺🍎🌳",
+        "🛏️📘🌙",
+        "🚗🛞🛣️"
+      ]
+    },
+    {
+      "id": "read-041",
+      "sentence": "Nina packs lunch for a picnic.\nThey put fruit in a basket.\nThey eat under a shady tree.",
+      "answer": "🧺🍎🌳",
+      "choices": [
+        "🧺🍎🌳",
+        "🛏️📘🌙",
+        "🚗🛞🛣️"
+      ]
+    },
+    {
+      "id": "read-042",
+      "sentence": "Arun packs lunch for a picnic.\nThey put fruit in a basket.\nThey eat under a shady tree.",
+      "answer": "🧺🍎🌳",
+      "choices": [
+        "🧺🍎🌳",
+        "🛏️📘🌙",
+        "🚗🛞🛣️"
+      ]
+    },
+    {
+      "id": "read-043",
+      "sentence": "Lily packs lunch for a picnic.\nThey put fruit in a basket.\nThey eat under a shady tree.",
+      "answer": "🧺🍎🌳",
+      "choices": [
+        "🧺🍎🌳",
+        "🛏️📘🌙",
+        "🚗🛞🛣️"
+      ]
+    },
+    {
+      "id": "read-044",
+      "sentence": "Sam packs lunch for a picnic.\nThey put fruit in a basket.\nThey eat under a shady tree.",
+      "answer": "🧺🍎🌳",
+      "choices": [
+        "🧺🍎🌳",
+        "🛏️📘🌙",
+        "🚗🛞🛣️"
+      ]
+    },
+    {
+      "id": "read-045",
+      "sentence": "Mia hears a soft sound outside.\nA little bird is near the window.\nThey put water in a small dish.",
+      "answer": "🐦🪟",
+      "choices": [
+        "🐦🪟",
+        "🐟🪸",
+        "⚽🥅"
+      ]
+    },
+    {
+      "id": "read-046",
+      "sentence": "Noah hears a soft sound outside.\nA little bird is near the window.\nThey put water in a small dish.",
+      "answer": "🐦🪟",
+      "choices": [
+        "🐦🪟",
+        "🐟🪸",
+        "⚽🥅"
+      ]
+    },
+    {
+      "id": "read-047",
+      "sentence": "Asha hears a soft sound outside.\nA little bird is near the window.\nThey put water in a small dish.",
+      "answer": "🐦🪟",
+      "choices": [
+        "🐦🪟",
+        "🐟🪸",
+        "⚽🥅"
+      ]
+    },
+    {
+      "id": "read-048",
+      "sentence": "Leo hears a soft sound outside.\nA little bird is near the window.\nThey put water in a small dish.",
+      "answer": "🐦🪟",
+      "choices": [
+        "🐦🪟",
+        "🐟🪸",
+        "⚽🥅"
+      ]
+    },
+    {
+      "id": "read-049",
+      "sentence": "Nina hears a soft sound outside.\nA little bird is near the window.\nThey put water in a small dish.",
+      "answer": "🐦🪟",
+      "choices": [
+        "🐦🪟",
+        "🐟🪸",
+        "⚽🥅"
+      ]
+    },
+    {
+      "id": "read-050",
+      "sentence": "Arun hears a soft sound outside.\nA little bird is near the window.\nThey put water in a small dish.",
+      "answer": "🐦🪟",
+      "choices": [
+        "🐦🪟",
+        "🐟🪸",
+        "⚽🥅"
+      ]
+    },
+    {
+      "id": "read-051",
+      "sentence": "Lily hears a soft sound outside.\nA little bird is near the window.\nThey put water in a small dish.",
+      "answer": "🐦🪟",
+      "choices": [
+        "🐦🪟",
+        "🐟🪸",
+        "⚽🥅"
+      ]
+    },
+    {
+      "id": "read-052",
+      "sentence": "Sam hears a soft sound outside.\nA little bird is near the window.\nThey put water in a small dish.",
+      "answer": "🐦🪟",
+      "choices": [
+        "🐦🪟",
+        "🐟🪸",
+        "⚽🥅"
+      ]
+    },
+    {
+      "id": "read-053",
+      "sentence": "Mia gathers leaves after the rain.\nThey make a picture with the leaves.\nA butterfly lands nearby.",
+      "answer": "🍂🦋",
+      "choices": [
+        "🍂🦋",
+        "🍦🥄",
+        "🚲🪖"
+      ]
+    },
+    {
+      "id": "read-054",
+      "sentence": "Noah gathers leaves after the rain.\nThey make a picture with the leaves.\nA butterfly lands nearby.",
+      "answer": "🍂🦋",
+      "choices": [
+        "🍂🦋",
+        "🍦🥄",
+        "🚲🪖"
+      ]
+    },
+    {
+      "id": "read-055",
+      "sentence": "Asha gathers leaves after the rain.\nThey make a picture with the leaves.\nA butterfly lands nearby.",
+      "answer": "🍂🦋",
+      "choices": [
+        "🍂🦋",
+        "🍦🥄",
+        "🚲🪖"
+      ]
+    },
+    {
+      "id": "read-056",
+      "sentence": "Leo gathers leaves after the rain.\nThey make a picture with the leaves.\nA butterfly lands nearby.",
+      "answer": "🍂🦋",
+      "choices": [
+        "🍂🦋",
+        "🍦🥄",
+        "🚲🪖"
+      ]
+    },
+    {
+      "id": "read-057",
+      "sentence": "Nina gathers leaves after the rain.\nThey make a picture with the leaves.\nA butterfly lands nearby.",
+      "answer": "🍂🦋",
+      "choices": [
+        "🍂🦋",
+        "🍦🥄",
+        "🚲🪖"
+      ]
+    },
+    {
+      "id": "read-058",
+      "sentence": "Arun gathers leaves after the rain.\nThey make a picture with the leaves.\nA butterfly lands nearby.",
+      "answer": "🍂🦋",
+      "choices": [
+        "🍂🦋",
+        "🍦🥄",
+        "🚲🪖"
+      ]
+    },
+    {
+      "id": "read-059",
+      "sentence": "Lily gathers leaves after the rain.\nThey make a picture with the leaves.\nA butterfly lands nearby.",
+      "answer": "🍂🦋",
+      "choices": [
+        "🍂🦋",
+        "🍦🥄",
+        "🚲🪖"
+      ]
+    },
+    {
+      "id": "read-060",
+      "sentence": "Sam gathers leaves after the rain.\nThey make a picture with the leaves.\nA butterfly lands nearby.",
+      "answer": "🍂🦋",
+      "choices": [
+        "🍂🦋",
+        "🍦🥄",
+        "🚲🪖"
+      ]
+    },
+    {
+      "id": "read-061",
+      "sentence": "Mia builds a tall block tower.\nIt wobbles but does not fall.\nThey add one more block.",
+      "answer": "🧱🏗️",
+      "choices": [
+        "🧱🏗️",
+        "🧁🍓",
+        "🐠🫧"
+      ]
+    },
+    {
+      "id": "read-062",
+      "sentence": "Noah builds a tall block tower.\nIt wobbles but does not fall.\nThey add one more block.",
+      "answer": "🧱🏗️",
+      "choices": [
+        "🧱🏗️",
+        "🧁🍓",
+        "🐠🫧"
+      ]
+    },
+    {
+      "id": "read-063",
+      "sentence": "Asha builds a tall block tower.\nIt wobbles but does not fall.\nThey add one more block.",
+      "answer": "🧱🏗️",
+      "choices": [
+        "🧱🏗️",
+        "🧁🍓",
+        "🐠🫧"
+      ]
+    },
+    {
+      "id": "read-064",
+      "sentence": "Leo builds a tall block tower.\nIt wobbles but does not fall.\nThey add one more block.",
+      "answer": "🧱🏗️",
+      "choices": [
+        "🧱🏗️",
+        "🧁🍓",
+        "🐠🫧"
+      ]
+    },
+    {
+      "id": "read-065",
+      "sentence": "Nina builds a tall block tower.\nIt wobbles but does not fall.\nThey add one more block.",
+      "answer": "🧱🏗️",
+      "choices": [
+        "🧱🏗️",
+        "🧁🍓",
+        "🐠🫧"
+      ]
+    },
+    {
+      "id": "read-066",
+      "sentence": "Arun builds a tall block tower.\nIt wobbles but does not fall.\nThey add one more block.",
+      "answer": "🧱🏗️",
+      "choices": [
+        "🧱🏗️",
+        "🧁🍓",
+        "🐠🫧"
+      ]
+    },
+    {
+      "id": "read-067",
+      "sentence": "Lily builds a tall block tower.\nIt wobbles but does not fall.\nThey add one more block.",
+      "answer": "🧱🏗️",
+      "choices": [
+        "🧱🏗️",
+        "🧁🍓",
+        "🐠🫧"
+      ]
+    },
+    {
+      "id": "read-068",
+      "sentence": "Sam builds a tall block tower.\nIt wobbles but does not fall.\nThey add one more block.",
+      "answer": "🧱🏗️",
+      "choices": [
+        "🧱🏗️",
+        "🧁🍓",
+        "🐠🫧"
+      ]
+    },
+    {
+      "id": "read-069",
+      "sentence": "Mia sees dark clouds in the sky.\nThey take an umbrella for the walk.\nThe rain starts on the way home.",
+      "answer": "☂️🌧️",
+      "choices": [
+        "☂️🌧️",
+        "☀️🏖️",
+        "🎂🕯️"
+      ]
+    },
+    {
+      "id": "read-070",
+      "sentence": "Noah sees dark clouds in the sky.\nThey take an umbrella for the walk.\nThe rain starts on the way home.",
+      "answer": "☂️🌧️",
+      "choices": [
+        "☂️🌧️",
+        "☀️🏖️",
+        "🎂🕯️"
+      ]
+    },
+    {
+      "id": "read-071",
+      "sentence": "Asha sees dark clouds in the sky.\nThey take an umbrella for the walk.\nThe rain starts on the way home.",
+      "answer": "☂️🌧️",
+      "choices": [
+        "☂️🌧️",
+        "☀️🏖️",
+        "🎂🕯️"
+      ]
+    },
+    {
+      "id": "read-072",
+      "sentence": "Leo sees dark clouds in the sky.\nThey take an umbrella for the walk.\nThe rain starts on the way home.",
+      "answer": "☂️🌧️",
+      "choices": [
+        "☂️🌧️",
+        "☀️🏖️",
+        "🎂🕯️"
+      ]
+    },
+    {
+      "id": "read-073",
+      "sentence": "Nina sees dark clouds in the sky.\nThey take an umbrella for the walk.\nThe rain starts on the way home.",
+      "answer": "☂️🌧️",
+      "choices": [
+        "☂️🌧️",
+        "☀️🏖️",
+        "🎂🕯️"
+      ]
+    },
+    {
+      "id": "read-074",
+      "sentence": "Arun sees dark clouds in the sky.\nThey take an umbrella for the walk.\nThe rain starts on the way home.",
+      "answer": "☂️🌧️",
+      "choices": [
+        "☂️🌧️",
+        "☀️🏖️",
+        "🎂🕯️"
+      ]
+    },
+    {
+      "id": "read-075",
+      "sentence": "Lily sees dark clouds in the sky.\nThey take an umbrella for the walk.\nThe rain starts on the way home.",
+      "answer": "☂️🌧️",
+      "choices": [
+        "☂️🌧️",
+        "☀️🏖️",
+        "🎂🕯️"
+      ]
+    },
+    {
+      "id": "read-076",
+      "sentence": "Sam sees dark clouds in the sky.\nThey take an umbrella for the walk.\nThe rain starts on the way home.",
+      "answer": "☂️🌧️",
+      "choices": [
+        "☂️🌧️",
+        "☀️🏖️",
+        "🎂🕯️"
+      ]
+    },
+    {
+      "id": "read-077",
+      "sentence": "Mia visits a farm with a grown-up.\nThey feed hay to a horse.\nThe horse gives a gentle nicker.",
+      "answer": "🐴🌾",
+      "choices": [
+        "🐴🌾",
+        "🐙🪸",
+        "🦉🌙"
+      ]
+    },
+    {
+      "id": "read-078",
+      "sentence": "Noah visits a farm with a grown-up.\nThey feed hay to a horse.\nThe horse gives a gentle nicker.",
+      "answer": "🐴🌾",
+      "choices": [
+        "🐴🌾",
+        "🐙🪸",
+        "🦉🌙"
+      ]
+    },
+    {
+      "id": "read-079",
+      "sentence": "Asha visits a farm with a grown-up.\nThey feed hay to a horse.\nThe horse gives a gentle nicker.",
+      "answer": "🐴🌾",
+      "choices": [
+        "🐴🌾",
+        "🐙🪸",
+        "🦉🌙"
+      ]
+    },
+    {
+      "id": "read-080",
+      "sentence": "Leo visits a farm with a grown-up.\nThey feed hay to a horse.\nThe horse gives a gentle nicker.",
+      "answer": "🐴🌾",
+      "choices": [
+        "🐴🌾",
+        "🐙🪸",
+        "🦉🌙"
+      ]
+    },
+    {
+      "id": "read-081",
+      "sentence": "Nina visits a farm with a grown-up.\nThey feed hay to a horse.\nThe horse gives a gentle nicker.",
+      "answer": "🐴🌾",
+      "choices": [
+        "🐴🌾",
+        "🐙🪸",
+        "🦉🌙"
+      ]
+    },
+    {
+      "id": "read-082",
+      "sentence": "Arun visits a farm with a grown-up.\nThey feed hay to a horse.\nThe horse gives a gentle nicker.",
+      "answer": "🐴🌾",
+      "choices": [
+        "🐴🌾",
+        "🐙🪸",
+        "🦉🌙"
+      ]
+    },
+    {
+      "id": "read-083",
+      "sentence": "Lily visits a farm with a grown-up.\nThey feed hay to a horse.\nThe horse gives a gentle nicker.",
+      "answer": "🐴🌾",
+      "choices": [
+        "🐴🌾",
+        "🐙🪸",
+        "🦉🌙"
+      ]
+    },
+    {
+      "id": "read-084",
+      "sentence": "Sam visits a farm with a grown-up.\nThey feed hay to a horse.\nThe horse gives a gentle nicker.",
+      "answer": "🐴🌾",
+      "choices": [
+        "🐴🌾",
+        "🐙🪸",
+        "🦉🌙"
+      ]
+    },
+    {
+      "id": "read-085",
+      "sentence": "Mia finds a smooth shell on the beach.\nThey listen to the waves.\nThey place the shell in a bucket.",
+      "answer": "🐚🏖️",
+      "choices": [
+        "🐚🏖️",
+        "📚🏫",
+        "🍎🥧"
+      ]
+    },
+    {
+      "id": "read-086",
+      "sentence": "Noah finds a smooth shell on the beach.\nThey listen to the waves.\nThey place the shell in a bucket.",
+      "answer": "🐚🏖️",
+      "choices": [
+        "🐚🏖️",
+        "📚🏫",
+        "🍎🥧"
+      ]
+    },
+    {
+      "id": "read-087",
+      "sentence": "Asha finds a smooth shell on the beach.\nThey listen to the waves.\nThey place the shell in a bucket.",
+      "answer": "🐚🏖️",
+      "choices": [
+        "🐚🏖️",
+        "📚🏫",
+        "🍎🥧"
+      ]
+    },
+    {
+      "id": "read-088",
+      "sentence": "Leo finds a smooth shell on the beach.\nThey listen to the waves.\nThey place the shell in a bucket.",
+      "answer": "🐚🏖️",
+      "choices": [
+        "🐚🏖️",
+        "📚🏫",
+        "🍎🥧"
+      ]
+    },
+    {
+      "id": "read-089",
+      "sentence": "Nina finds a smooth shell on the beach.\nThey listen to the waves.\nThey place the shell in a bucket.",
+      "answer": "🐚🏖️",
+      "choices": [
+        "🐚🏖️",
+        "📚🏫",
+        "🍎🥧"
+      ]
+    },
+    {
+      "id": "read-090",
+      "sentence": "Arun finds a smooth shell on the beach.\nThey listen to the waves.\nThey place the shell in a bucket.",
+      "answer": "🐚🏖️",
+      "choices": [
+        "🐚🏖️",
+        "📚🏫",
+        "🍎🥧"
+      ]
+    },
+    {
+      "id": "read-091",
+      "sentence": "Lily finds a smooth shell on the beach.\nThey listen to the waves.\nThey place the shell in a bucket.",
+      "answer": "🐚🏖️",
+      "choices": [
+        "🐚🏖️",
+        "📚🏫",
+        "🍎🥧"
+      ]
+    },
+    {
+      "id": "read-092",
+      "sentence": "Sam finds a smooth shell on the beach.\nThey listen to the waves.\nThey place the shell in a bucket.",
+      "answer": "🐚🏖️",
+      "choices": [
+        "🐚🏖️",
+        "📚🏫",
+        "🍎🥧"
+      ]
+    },
+    {
+      "id": "read-093",
+      "sentence": "Mia reads a book about space.\nThey learn about the moon and stars.\nThey draw a rocket in a notebook.",
+      "answer": "🚀🌙",
+      "choices": [
+        "🚀🌙",
+        "🐸🪵",
+        "🧺🍞"
+      ]
+    },
+    {
+      "id": "read-094",
+      "sentence": "Noah reads a book about space.\nThey learn about the moon and stars.\nThey draw a rocket in a notebook.",
+      "answer": "🚀🌙",
+      "choices": [
+        "🚀🌙",
+        "🐸🪵",
+        "🧺🍞"
+      ]
+    },
+    {
+      "id": "read-095",
+      "sentence": "Asha reads a book about space.\nThey learn about the moon and stars.\nThey draw a rocket in a notebook.",
+      "answer": "🚀🌙",
+      "choices": [
+        "🚀🌙",
+        "🐸🪵",
+        "🧺🍞"
+      ]
+    },
+    {
+      "id": "read-096",
+      "sentence": "Leo reads a book about space.\nThey learn about the moon and stars.\nThey draw a rocket in a notebook.",
+      "answer": "🚀🌙",
+      "choices": [
+        "🚀🌙",
+        "🐸🪵",
+        "🧺🍞"
+      ]
+    },
+    {
+      "id": "read-097",
+      "sentence": "Nina reads a book about space.\nThey learn about the moon and stars.\nThey draw a rocket in a notebook.",
+      "answer": "🚀🌙",
+      "choices": [
+        "🚀🌙",
+        "🐸🪵",
+        "🧺🍞"
+      ]
+    },
+    {
+      "id": "read-098",
+      "sentence": "Arun reads a book about space.\nThey learn about the moon and stars.\nThey draw a rocket in a notebook.",
+      "answer": "🚀🌙",
+      "choices": [
+        "🚀🌙",
+        "🐸🪵",
+        "🧺🍞"
+      ]
+    },
+    {
+      "id": "read-099",
+      "sentence": "Lily reads a book about space.\nThey learn about the moon and stars.\nThey draw a rocket in a notebook.",
+      "answer": "🚀🌙",
+      "choices": [
+        "🚀🌙",
+        "🐸🪵",
+        "🧺🍞"
+      ]
+    },
+    {
+      "id": "read-100",
+      "sentence": "Sam reads a book about space.\nThey learn about the moon and stars.\nThey draw a rocket in a notebook.",
+      "answer": "🚀🌙",
+      "choices": [
+        "🚀🌙",
+        "🐸🪵",
+        "🧺🍞"
+      ]
+    }
   ],
   "tamilCards": [
-    {"id":"tamil-001","text":"இது ஒரு பூனை.","meaning":"This is a cat."},
-    {"id":"tamil-002","text":"இது ஒரு பந்து.","meaning":"This is a ball."},
-    {"id":"tamil-003","text":"இது ஒரு மரம்.","meaning":"This is a tree."},
-    {"id":"tamil-004","text":"நாய் ஓடுகிறது.","meaning":"The dog is running."},
-    {"id":"tamil-005","text":"பறவை பறக்கிறது.","meaning":"The bird is flying."},
-    {"id":"tamil-006","text":"நான் பாடுகிறேன்.","meaning":"I am singing."},
-    {"id":"tamil-007","text":"நான் தண்ணீர் குடிக்கிறேன்.","meaning":"I am drinking water."},
-    {"id":"tamil-008","text":"அம்மா கதை படிக்கிறார்.","meaning":"Mum is reading a story."},
-    {"id":"tamil-009","text":"நான் பள்ளிக்குச் செல்கிறேன்.","meaning":"I am going to school."},
-    {"id":"tamil-010","text":"பூனை பால் குடிக்கிறது.","meaning":"The cat is drinking milk."},
-    {"id":"tamil-011","text":"இது என் புத்தகம்.","meaning":"This is my book."},
-    {"id":"tamil-012","text":"குழந்தை படம் வரைகிறது.","meaning":"The child is drawing a picture."},
-    {"id":"tamil-013","text":"மீன் நீரில் நீந்துகிறது.","meaning":"The fish is swimming in the water."},
-    {"id":"tamil-014","text":"மழை பெய்கிறது.","meaning":"It is raining."},
-    {"id":"tamil-015","text":"வானம் நீலமாக இருக்கிறது.","meaning":"The sky is blue."},
-    {"id":"tamil-016","text":"எனக்கு மாம்பழம் பிடிக்கும்.","meaning":"I like mangoes."},
-    {"id":"tamil-017","text":"சிறுமி பாடல் பாடுகிறாள்.","meaning":"The girl is singing a song."},
-    {"id":"tamil-018","text":"சிறுவன் வேகமாக ஓடுகிறான்.","meaning":"The boy is running fast."},
-    {"id":"tamil-019","text":"யானை தண்ணீர் குடிக்கிறது.","meaning":"The elephant is drinking water."},
-    {"id":"tamil-020","text":"நிலா இரவில் தெரிகிறது.","meaning":"The moon can be seen at night."}
+    {
+      "id": "tamil-001",
+      "text": "இது ஒரு பூனை.",
+      "meaning": "This is a cat."
+    },
+    {
+      "id": "tamil-002",
+      "text": "இது ஒரு பந்து.",
+      "meaning": "This is a ball."
+    },
+    {
+      "id": "tamil-003",
+      "text": "இது ஒரு மரம்.",
+      "meaning": "This is a tree."
+    },
+    {
+      "id": "tamil-004",
+      "text": "நாய் ஓடுகிறது.",
+      "meaning": "The dog is running."
+    },
+    {
+      "id": "tamil-005",
+      "text": "பறவை பறக்கிறது.",
+      "meaning": "The bird is flying."
+    },
+    {
+      "id": "tamil-006",
+      "text": "நான் பாடுகிறேன்.",
+      "meaning": "I am singing."
+    },
+    {
+      "id": "tamil-007",
+      "text": "நான் தண்ணீர் குடிக்கிறேன்.",
+      "meaning": "I am drinking water."
+    },
+    {
+      "id": "tamil-008",
+      "text": "அம்மா கதை படிக்கிறார்.",
+      "meaning": "Mum is reading a story."
+    },
+    {
+      "id": "tamil-009",
+      "text": "நான் பள்ளிக்குச் செல்கிறேன்.",
+      "meaning": "I am going to school."
+    },
+    {
+      "id": "tamil-010",
+      "text": "பூனை பால் குடிக்கிறது.",
+      "meaning": "The cat is drinking milk."
+    },
+    {
+      "id": "tamil-011",
+      "text": "இது என் புத்தகம்.",
+      "meaning": "This is my book."
+    },
+    {
+      "id": "tamil-012",
+      "text": "குழந்தை படம் வரைகிறது.",
+      "meaning": "The child is drawing a picture."
+    },
+    {
+      "id": "tamil-013",
+      "text": "மீன் நீரில் நீந்துகிறது.",
+      "meaning": "The fish is swimming in the water."
+    },
+    {
+      "id": "tamil-014",
+      "text": "மழை பெய்கிறது.",
+      "meaning": "It is raining."
+    },
+    {
+      "id": "tamil-015",
+      "text": "வானம் நீலமாக இருக்கிறது.",
+      "meaning": "The sky is blue."
+    },
+    {
+      "id": "tamil-016",
+      "text": "எனக்கு மாம்பழம் பிடிக்கும்.",
+      "meaning": "I like mangoes."
+    },
+    {
+      "id": "tamil-017",
+      "text": "சிறுமி பாடல் பாடுகிறாள்.",
+      "meaning": "The girl is singing a song."
+    },
+    {
+      "id": "tamil-018",
+      "text": "சிறுவன் வேகமாக ஓடுகிறான்.",
+      "meaning": "The boy is running fast."
+    },
+    {
+      "id": "tamil-019",
+      "text": "யானை தண்ணீர் குடிக்கிறது.",
+      "meaning": "The elephant is drinking water."
+    },
+    {
+      "id": "tamil-020",
+      "text": "நிலா இரவில் தெரிகிறது.",
+      "meaning": "The moon can be seen at night."
+    },
+    {
+      "id": "tamil-021",
+      "text": "இது ஒரு புத்தகம்.",
+      "meaning": "This is a book."
+    },
+    {
+      "id": "tamil-022",
+      "text": "இது ஒரு பென்சில்.",
+      "meaning": "This is a pencil."
+    },
+    {
+      "id": "tamil-023",
+      "text": "இது ஒரு வீடு.",
+      "meaning": "This is a house."
+    },
+    {
+      "id": "tamil-024",
+      "text": "இது ஒரு நாற்காலி.",
+      "meaning": "This is a chair."
+    },
+    {
+      "id": "tamil-025",
+      "text": "இது ஒரு மேசை.",
+      "meaning": "This is a table."
+    },
+    {
+      "id": "tamil-026",
+      "text": "இது ஒரு குடை.",
+      "meaning": "This is a umbrella."
+    },
+    {
+      "id": "tamil-027",
+      "text": "இது ஒரு கார்.",
+      "meaning": "This is a car."
+    },
+    {
+      "id": "tamil-028",
+      "text": "இது ஒரு பூ.",
+      "meaning": "This is a flower."
+    },
+    {
+      "id": "tamil-029",
+      "text": "இது ஒரு கடிகாரம்.",
+      "meaning": "This is a clock."
+    },
+    {
+      "id": "tamil-030",
+      "text": "இது ஒரு கோப்பை.",
+      "meaning": "This is a cup."
+    },
+    {
+      "id": "tamil-031",
+      "text": "இது ஒரு பை.",
+      "meaning": "This is a bag."
+    },
+    {
+      "id": "tamil-032",
+      "text": "இது ஒரு மிதிவண்டி.",
+      "meaning": "This is a bicycle."
+    },
+    {
+      "id": "tamil-033",
+      "text": "இது ஒரு படம்.",
+      "meaning": "This is a picture."
+    },
+    {
+      "id": "tamil-034",
+      "text": "இது ஒரு ஆப்பிள்.",
+      "meaning": "This is a apple."
+    },
+    {
+      "id": "tamil-035",
+      "text": "இது ஒரு மாம்பழம்.",
+      "meaning": "This is a mango."
+    },
+    {
+      "id": "tamil-036",
+      "text": "இது ஒரு யானை.",
+      "meaning": "This is a elephant."
+    },
+    {
+      "id": "tamil-037",
+      "text": "இது ஒரு மீன்.",
+      "meaning": "This is a fish."
+    },
+    {
+      "id": "tamil-038",
+      "text": "இது ஒரு பறவை.",
+      "meaning": "This is a bird."
+    },
+    {
+      "id": "tamil-039",
+      "text": "எனக்கு ஆப்பிள் பிடிக்கும்.",
+      "meaning": "I like apple."
+    },
+    {
+      "id": "tamil-040",
+      "text": "எனக்கு வாழைப்பழம் பிடிக்கும்.",
+      "meaning": "I like banana."
+    },
+    {
+      "id": "tamil-041",
+      "text": "எனக்கு இட்லி பிடிக்கும்.",
+      "meaning": "I like idli."
+    },
+    {
+      "id": "tamil-042",
+      "text": "எனக்கு தோசை பிடிக்கும்.",
+      "meaning": "I like dosa."
+    },
+    {
+      "id": "tamil-043",
+      "text": "எனக்கு சாதம் பிடிக்கும்.",
+      "meaning": "I like rice."
+    },
+    {
+      "id": "tamil-044",
+      "text": "எனக்கு கேரட் பிடிக்கும்.",
+      "meaning": "I like carrot."
+    },
+    {
+      "id": "tamil-045",
+      "text": "எனக்கு ரொட்டி பிடிக்கும்.",
+      "meaning": "I like bread."
+    },
+    {
+      "id": "tamil-046",
+      "text": "எனக்கு பிஸ்கட் பிடிக்கும்.",
+      "meaning": "I like biscuit."
+    },
+    {
+      "id": "tamil-047",
+      "text": "எனக்கு ஆரஞ்சு பிடிக்கும்.",
+      "meaning": "I like orange."
+    },
+    {
+      "id": "tamil-048",
+      "text": "எனக்கு திராட்சை பிடிக்கும்.",
+      "meaning": "I like grapes."
+    },
+    {
+      "id": "tamil-049",
+      "text": "எனக்கு தர்பூசணி பிடிக்கும்.",
+      "meaning": "I like watermelon."
+    },
+    {
+      "id": "tamil-050",
+      "text": "எனக்கு தயிர் பிடிக்கும்.",
+      "meaning": "I like yogurt."
+    },
+    {
+      "id": "tamil-051",
+      "text": "எனக்கு நூடுல்ஸ் பிடிக்கும்.",
+      "meaning": "I like noodles."
+    },
+    {
+      "id": "tamil-052",
+      "text": "எனக்கு உருளைக்கிழங்கு பிடிக்கும்.",
+      "meaning": "I like potato."
+    },
+    {
+      "id": "tamil-053",
+      "text": "எனக்கு சப்பாத்தி பிடிக்கும்.",
+      "meaning": "I like chapati."
+    },
+    {
+      "id": "tamil-054",
+      "text": "எனக்கு பலாப்பழம் பிடிக்கும்.",
+      "meaning": "I like jackfruit."
+    },
+    {
+      "id": "tamil-055",
+      "text": "எனக்கு கொய்யாப்பழம் பிடிக்கும்.",
+      "meaning": "I like guava."
+    },
+    {
+      "id": "tamil-056",
+      "text": "எனக்கு முந்திரி பிடிக்கும்.",
+      "meaning": "I like cashew nuts."
+    },
+    {
+      "id": "tamil-057",
+      "text": "எனக்கு பேரிக்காய் பிடிக்கும்.",
+      "meaning": "I like pear."
+    },
+    {
+      "id": "tamil-058",
+      "text": "நான் புத்தகம் படிக்கிறேன்.",
+      "meaning": "I am reading a book."
+    },
+    {
+      "id": "tamil-059",
+      "text": "நான் படம் வரைகிறேன்.",
+      "meaning": "I am drawing a picture."
+    },
+    {
+      "id": "tamil-060",
+      "text": "நான் பாட்டு பாடுகிறேன்.",
+      "meaning": "I am singing a song."
+    },
+    {
+      "id": "tamil-061",
+      "text": "நான் பந்து விளையாடுகிறேன்.",
+      "meaning": "I am playing with a ball."
+    },
+    {
+      "id": "tamil-062",
+      "text": "நான் மாம்பழம் சாப்பிடுகிறேன்.",
+      "meaning": "I am eating a mango."
+    },
+    {
+      "id": "tamil-063",
+      "text": "நான் வேகமாக ஓடுகிறேன்.",
+      "meaning": "I am running fast."
+    },
+    {
+      "id": "tamil-064",
+      "text": "நான் மலர்களைப் பார்க்கிறேன்.",
+      "meaning": "I am looking at the flowers."
+    },
+    {
+      "id": "tamil-065",
+      "text": "நான் கதையைப் படிக்கிறேன்.",
+      "meaning": "I am reading a story."
+    },
+    {
+      "id": "tamil-066",
+      "text": "நான் படம் பார்க்கிறேன்.",
+      "meaning": "I am watching a picture."
+    },
+    {
+      "id": "tamil-067",
+      "text": "நான் நண்பருடன் விளையாடுகிறேன்.",
+      "meaning": "I am playing with a friend."
+    },
+    {
+      "id": "tamil-068",
+      "text": "நான் பூனைக்கு உணவு தருகிறேன்.",
+      "meaning": "I am feeding the cat."
+    },
+    {
+      "id": "tamil-069",
+      "text": "நான் பென்சிலால் எழுதுகிறேன்.",
+      "meaning": "I am writing with a pencil."
+    },
+    {
+      "id": "tamil-070",
+      "text": "நான் கதவைத் திறக்கிறேன்.",
+      "meaning": "I am opening the door."
+    },
+    {
+      "id": "tamil-071",
+      "text": "நான் கைகளைக் கழுவுகிறேன்.",
+      "meaning": "I am washing my hands."
+    },
+    {
+      "id": "tamil-072",
+      "text": "நான் சிரிக்கிறேன்.",
+      "meaning": "I am smiling."
+    },
+    {
+      "id": "tamil-073",
+      "text": "நான் குதிக்கிறேன்.",
+      "meaning": "I am jumping."
+    },
+    {
+      "id": "tamil-074",
+      "text": "நான் மெதுவாக நடக்கிறேன்.",
+      "meaning": "I am walking slowly."
+    },
+    {
+      "id": "tamil-075",
+      "text": "நான் பாடம் கேட்கிறேன்.",
+      "meaning": "I am listening to a lesson."
+    },
+    {
+      "id": "tamil-076",
+      "text": "நாய் குரைக்கிறது.",
+      "meaning": "The dog is barking."
+    },
+    {
+      "id": "tamil-077",
+      "text": "பூனை தூங்குகிறது.",
+      "meaning": "The cat is sleeping."
+    },
+    {
+      "id": "tamil-078",
+      "text": "மீன் நீந்துகிறது.",
+      "meaning": "The fish is swimming."
+    },
+    {
+      "id": "tamil-079",
+      "text": "குதிரை ஓடுகிறது.",
+      "meaning": "The horse is running."
+    },
+    {
+      "id": "tamil-080",
+      "text": "பறவை பாடுகிறது.",
+      "meaning": "The bird is singing."
+    },
+    {
+      "id": "tamil-081",
+      "text": "ஆடு புல் சாப்பிடுகிறது.",
+      "meaning": "The goat is eating grass."
+    },
+    {
+      "id": "tamil-082",
+      "text": "முயல் கேரட் சாப்பிடுகிறது.",
+      "meaning": "The rabbit is eating a carrot."
+    },
+    {
+      "id": "tamil-083",
+      "text": "வாத்து நீரில் நீந்துகிறது.",
+      "meaning": "The duck is swimming in the water."
+    },
+    {
+      "id": "tamil-084",
+      "text": "குரங்கு மரத்தில் ஏறுகிறது.",
+      "meaning": "The monkey is climbing the tree."
+    },
+    {
+      "id": "tamil-085",
+      "text": "சூரியன் ஒளி தருகிறது.",
+      "meaning": "The sun gives light."
+    },
+    {
+      "id": "tamil-086",
+      "text": "பூ மலர்கிறது.",
+      "meaning": "The flower is blooming."
+    },
+    {
+      "id": "tamil-087",
+      "text": "இலை பச்சையாக இருக்கிறது.",
+      "meaning": "The leaf is green."
+    },
+    {
+      "id": "tamil-088",
+      "text": "காற்று மெதுவாக வீசுகிறது.",
+      "meaning": "The wind is blowing softly."
+    },
+    {
+      "id": "tamil-089",
+      "text": "மேகம் வானில் மிதக்கிறது.",
+      "meaning": "The cloud is floating in the sky."
+    },
+    {
+      "id": "tamil-090",
+      "text": "நட்சத்திரம் இரவில் மின்னுகிறது.",
+      "meaning": "The star is shining at night."
+    },
+    {
+      "id": "tamil-091",
+      "text": "நதி கடலை நோக்கிப் பாய்கிறது.",
+      "meaning": "The river flows toward the sea."
+    },
+    {
+      "id": "tamil-092",
+      "text": "தேனீ பூவின் அருகில் பறக்கிறது.",
+      "meaning": "The bee is flying near the flower."
+    },
+    {
+      "id": "tamil-093",
+      "text": "இது பெரிய புத்தகம்.",
+      "meaning": "This is a big book."
+    },
+    {
+      "id": "tamil-094",
+      "text": "இது பெரிய பென்சில்.",
+      "meaning": "This is a big pencil."
+    },
+    {
+      "id": "tamil-095",
+      "text": "இது பெரிய பந்து.",
+      "meaning": "This is a big ball."
+    },
+    {
+      "id": "tamil-096",
+      "text": "இது பெரிய மரம்.",
+      "meaning": "This is a big tree."
+    },
+    {
+      "id": "tamil-097",
+      "text": "இது பெரிய வீடு.",
+      "meaning": "This is a big house."
+    },
+    {
+      "id": "tamil-098",
+      "text": "இது பெரிய நாற்காலி.",
+      "meaning": "This is a big chair."
+    },
+    {
+      "id": "tamil-099",
+      "text": "இது பெரிய மேசை.",
+      "meaning": "This is a big table."
+    },
+    {
+      "id": "tamil-100",
+      "text": "இது பெரிய குடை.",
+      "meaning": "This is a big umbrella."
+    }
   ],
   "spellingWords": [
-    {"id":"spell-001","word":"pencil","picture":"✏️"},
-    {"id":"spell-002","word":"rocket","picture":"🚀"},
-    {"id":"spell-003","word":"garden","picture":"🌷"},
-    {"id":"spell-004","word":"monkey","picture":"🐒"},
-    {"id":"spell-005","word":"turtle","picture":"🐢"},
-    {"id":"spell-006","word":"orange","picture":"🍊"},
-    {"id":"spell-007","word":"purple","picture":"🟣"},
-    {"id":"spell-008","word":"window","picture":"🪟"},
-    {"id":"spell-009","word":"basket","picture":"🧺"},
-    {"id":"spell-010","word":"rabbit","picture":"🐇"},
-    {"id":"spell-011","word":"planet","picture":"🪐"},
-    {"id":"spell-012","word":"butterfly","picture":"🦋"},
-    {"id":"spell-013","word":"rainbow","picture":"🌈"},
-    {"id":"spell-014","word":"backpack","picture":"🎒"},
-    {"id":"spell-015","word":"dolphin","picture":"🐬"},
-    {"id":"spell-016","word":"cupcake","picture":"🧁"},
-    {"id":"spell-017","word":"sunshine","picture":"🌞"},
-    {"id":"spell-018","word":"playground","picture":"🛝"},
-    {"id":"spell-019","word":"strawberry","picture":"🍓"},
-    {"id":"spell-020","word":"snowflake","picture":"❄️"},
-    {"id":"spell-021","word":"airplane","picture":"✈️"},
-    {"id":"spell-022","word":"elephant","picture":"🐘"},
-    {"id":"spell-023","word":"birthday","picture":"🎂"},
-    {"id":"spell-024","word":"adventure","picture":"🗺️"},
-    {"id":"spell-025","word":"lunchbox","picture":"🍱"},
-    {"id":"spell-026","word":"football","picture":"⚽"},
-    {"id":"spell-027","word":"rainforest","picture":"🌳"},
-    {"id":"spell-028","word":"squirrel","picture":"🐿️"},
-    {"id":"spell-029","word":"firetruck","picture":"🚒"},
-    {"id":"spell-030","word":"chocolate","picture":"🍫"},
-    {"id":"spell-031","word":"dinosaur","picture":"🦖"},
-    {"id":"spell-032","word":"treasure","picture":"💎"},
-    {"id":"spell-033","word":"sandwich","picture":"🥪"},
-    {"id":"spell-034","word":"snowman","picture":"⛄"},
-    {"id":"spell-035","word":"dandelion","picture":"🌼"},
-    {"id":"spell-036","word":"kangaroo","picture":"🦘"},
-    {"id":"spell-037","word":"jellyfish","picture":"🪼"},
-    {"id":"spell-038","word":"honeybee","picture":"🐝"},
-    {"id":"spell-039","word":"sunflower","picture":"🌻"},
-    {"id":"spell-040","word":"sidewalk","picture":"🚶"}
+    {
+      "id": "spell-001",
+      "word": "pencil",
+      "picture": "✏️"
+    },
+    {
+      "id": "spell-002",
+      "word": "rocket",
+      "picture": "🚀"
+    },
+    {
+      "id": "spell-003",
+      "word": "garden",
+      "picture": "🌷"
+    },
+    {
+      "id": "spell-004",
+      "word": "monkey",
+      "picture": "🐒"
+    },
+    {
+      "id": "spell-005",
+      "word": "turtle",
+      "picture": "🐢"
+    },
+    {
+      "id": "spell-006",
+      "word": "orange",
+      "picture": "🍊"
+    },
+    {
+      "id": "spell-007",
+      "word": "purple",
+      "picture": "🟣"
+    },
+    {
+      "id": "spell-008",
+      "word": "window",
+      "picture": "🪟"
+    },
+    {
+      "id": "spell-009",
+      "word": "basket",
+      "picture": "🧺"
+    },
+    {
+      "id": "spell-010",
+      "word": "rabbit",
+      "picture": "🐇"
+    },
+    {
+      "id": "spell-011",
+      "word": "planet",
+      "picture": "🪐"
+    },
+    {
+      "id": "spell-012",
+      "word": "butterfly",
+      "picture": "🦋"
+    },
+    {
+      "id": "spell-013",
+      "word": "rainbow",
+      "picture": "🌈"
+    },
+    {
+      "id": "spell-014",
+      "word": "backpack",
+      "picture": "🎒"
+    },
+    {
+      "id": "spell-015",
+      "word": "dolphin",
+      "picture": "🐬"
+    },
+    {
+      "id": "spell-016",
+      "word": "cupcake",
+      "picture": "🧁"
+    },
+    {
+      "id": "spell-017",
+      "word": "sunshine",
+      "picture": "🌞"
+    },
+    {
+      "id": "spell-018",
+      "word": "playground",
+      "picture": "🛝"
+    },
+    {
+      "id": "spell-019",
+      "word": "strawberry",
+      "picture": "🍓"
+    },
+    {
+      "id": "spell-020",
+      "word": "snowflake",
+      "picture": "❄️"
+    },
+    {
+      "id": "spell-021",
+      "word": "airplane",
+      "picture": "✈️"
+    },
+    {
+      "id": "spell-022",
+      "word": "elephant",
+      "picture": "🐘"
+    },
+    {
+      "id": "spell-023",
+      "word": "birthday",
+      "picture": "🎂"
+    },
+    {
+      "id": "spell-024",
+      "word": "adventure",
+      "picture": "🗺️"
+    },
+    {
+      "id": "spell-025",
+      "word": "lunchbox",
+      "picture": "🍱"
+    },
+    {
+      "id": "spell-026",
+      "word": "football",
+      "picture": "⚽"
+    },
+    {
+      "id": "spell-027",
+      "word": "rainforest",
+      "picture": "🌳"
+    },
+    {
+      "id": "spell-028",
+      "word": "squirrel",
+      "picture": "🐿️"
+    },
+    {
+      "id": "spell-029",
+      "word": "firetruck",
+      "picture": "🚒"
+    },
+    {
+      "id": "spell-030",
+      "word": "chocolate",
+      "picture": "🍫"
+    },
+    {
+      "id": "spell-031",
+      "word": "dinosaur",
+      "picture": "🦖"
+    },
+    {
+      "id": "spell-032",
+      "word": "treasure",
+      "picture": "💎"
+    },
+    {
+      "id": "spell-033",
+      "word": "sandwich",
+      "picture": "🥪"
+    },
+    {
+      "id": "spell-034",
+      "word": "snowman",
+      "picture": "⛄"
+    },
+    {
+      "id": "spell-035",
+      "word": "dandelion",
+      "picture": "🌼"
+    },
+    {
+      "id": "spell-036",
+      "word": "kangaroo",
+      "picture": "🦘"
+    },
+    {
+      "id": "spell-037",
+      "word": "jellyfish",
+      "picture": "🪼"
+    },
+    {
+      "id": "spell-038",
+      "word": "honeybee",
+      "picture": "🐝"
+    },
+    {
+      "id": "spell-039",
+      "word": "sunflower",
+      "picture": "🌻"
+    },
+    {
+      "id": "spell-040",
+      "word": "sidewalk",
+      "picture": "🚶"
+    },
+    {
+      "id": "spell-041",
+      "word": "mountain",
+      "picture": "🏔️"
+    },
+    {
+      "id": "spell-042",
+      "word": "volcano",
+      "picture": "🌋"
+    },
+    {
+      "id": "spell-043",
+      "word": "library",
+      "picture": "📚"
+    },
+    {
+      "id": "spell-044",
+      "word": "breakfast",
+      "picture": "🍳"
+    },
+    {
+      "id": "spell-045",
+      "word": "computer",
+      "picture": "💻"
+    },
+    {
+      "id": "spell-046",
+      "word": "crocodile",
+      "picture": "🐊"
+    },
+    {
+      "id": "spell-047",
+      "word": "octopus",
+      "picture": "🐙"
+    },
+    {
+      "id": "spell-048",
+      "word": "penguin",
+      "picture": "🐧"
+    },
+    {
+      "id": "spell-049",
+      "word": "hamster",
+      "picture": "🐹"
+    },
+    {
+      "id": "spell-050",
+      "word": "flamingo",
+      "picture": "🦩"
+    },
+    {
+      "id": "spell-051",
+      "word": "peppermint",
+      "picture": "🍬"
+    },
+    {
+      "id": "spell-052",
+      "word": "envelope",
+      "picture": "✉️"
+    },
+    {
+      "id": "spell-053",
+      "word": "bicycle",
+      "picture": "🚲"
+    },
+    {
+      "id": "spell-054",
+      "word": "submarine",
+      "picture": "🚤"
+    },
+    {
+      "id": "spell-055",
+      "word": "helicopter",
+      "picture": "🚁"
+    },
+    {
+      "id": "spell-056",
+      "word": "lighthouse",
+      "picture": "🗼"
+    },
+    {
+      "id": "spell-057",
+      "word": "spaceship",
+      "picture": "🛸"
+    },
+    {
+      "id": "spell-058",
+      "word": "starfish",
+      "picture": "⭐"
+    },
+    {
+      "id": "spell-059",
+      "word": "seashell",
+      "picture": "🐚"
+    },
+    {
+      "id": "spell-060",
+      "word": "waterfall",
+      "picture": "🏞️"
+    },
+    {
+      "id": "spell-061",
+      "word": "popcorn",
+      "picture": "🍿"
+    },
+    {
+      "id": "spell-062",
+      "word": "pancake",
+      "picture": "🥞"
+    },
+    {
+      "id": "spell-063",
+      "word": "mailbox",
+      "picture": "📫"
+    },
+    {
+      "id": "spell-064",
+      "word": "baseball",
+      "picture": "⚾"
+    },
+    {
+      "id": "spell-065",
+      "word": "basketball",
+      "picture": "🏀"
+    },
+    {
+      "id": "spell-066",
+      "word": "cricket",
+      "picture": "🏏"
+    },
+    {
+      "id": "spell-067",
+      "word": "swimming",
+      "picture": "🏊"
+    },
+    {
+      "id": "spell-068",
+      "word": "running",
+      "picture": "🏃"
+    },
+    {
+      "id": "spell-069",
+      "word": "whisper",
+      "picture": "🤫"
+    },
+    {
+      "id": "spell-070",
+      "word": "feather",
+      "picture": "🪶"
+    },
+    {
+      "id": "spell-071",
+      "word": "trumpet",
+      "picture": "🎺"
+    },
+    {
+      "id": "spell-072",
+      "word": "giraffe",
+      "picture": "🦒"
+    },
+    {
+      "id": "spell-073",
+      "word": "zookeeper",
+      "picture": "🧑‍🌾"
+    },
+    {
+      "id": "spell-074",
+      "word": "colourful",
+      "picture": "🎨"
+    },
+    {
+      "id": "spell-075",
+      "word": "favourite",
+      "picture": "⭐"
+    },
+    {
+      "id": "spell-076",
+      "word": "tomorrow",
+      "picture": "🌅"
+    },
+    {
+      "id": "spell-077",
+      "word": "remember",
+      "picture": "🧠"
+    },
+    {
+      "id": "spell-078",
+      "word": "carefully",
+      "picture": "🫳"
+    },
+    {
+      "id": "spell-079",
+      "word": "different",
+      "picture": "🧩"
+    },
+    {
+      "id": "spell-080",
+      "word": "wonderful",
+      "picture": "🌟"
+    },
+    {
+      "id": "spell-081",
+      "word": "discover",
+      "picture": "🔎"
+    },
+    {
+      "id": "spell-082",
+      "word": "important",
+      "picture": "❗"
+    },
+    {
+      "id": "spell-083",
+      "word": "practice",
+      "picture": "✍️"
+    },
+    {
+      "id": "spell-084",
+      "word": "lollipop",
+      "picture": "🍭"
+    },
+    {
+      "id": "spell-085",
+      "word": "pajamas",
+      "picture": "🛌"
+    },
+    {
+      "id": "spell-086",
+      "word": "suitcase",
+      "picture": "🧳"
+    },
+    {
+      "id": "spell-087",
+      "word": "necklace",
+      "picture": "📿"
+    },
+    {
+      "id": "spell-088",
+      "word": "treetop",
+      "picture": "🌳"
+    },
+    {
+      "id": "spell-089",
+      "word": "puddle",
+      "picture": "💧"
+    },
+    {
+      "id": "spell-090",
+      "word": "pocket",
+      "picture": "👖"
+    },
+    {
+      "id": "spell-091",
+      "word": "summer",
+      "picture": "🏖️"
+    },
+    {
+      "id": "spell-092",
+      "word": "winter",
+      "picture": "❄️"
+    },
+    {
+      "id": "spell-093",
+      "word": "autumn",
+      "picture": "🍁"
+    },
+    {
+      "id": "spell-094",
+      "word": "springtime",
+      "picture": "🌷"
+    },
+    {
+      "id": "spell-095",
+      "word": "Saturday",
+      "picture": "📅"
+    },
+    {
+      "id": "spell-096",
+      "word": "cousin",
+      "picture": "🧒"
+    },
+    {
+      "id": "spell-097",
+      "word": "grandma",
+      "picture": "👵"
+    },
+    {
+      "id": "spell-098",
+      "word": "grandpa",
+      "picture": "👴"
+    },
+    {
+      "id": "spell-099",
+      "word": "storybook",
+      "picture": "📖"
+    },
+    {
+      "id": "spell-100",
+      "word": "classroom",
+      "picture": "🏫"
+    }
   ]
 }
